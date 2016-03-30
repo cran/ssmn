@@ -1,0 +1,10 @@
+3d66e331ecf0e68ff805104471d99fbc *DESCRIPTION
+856aa1ffe395e6339d48e59a53ce8860 *NAMESPACE
+fde1a47f9069caecb71bd01949c47338 *R/functions.R
+9614f281a48e29beb49e1df5cbd191fe *R/ssmn.R
+5bf5a1ad580b5b6ab857d4f0d27036d5 *R/ssmn.est.R
+df084e2b8e56d674442742675754ba81 *data/ais.txt.gz
+c3dd963ae03948679a2f6a3f406da835 *man/ais.Rd
+8e9842a23a0065ab0d69152a78903e21 *man/ssmn-package.Rd
+64e192f4a386a0efdca2e63f228883ad *man/ssmn.Rd
+564d8f237395574e8be1ca9905600dcc *man/ssmn.est.Rd
