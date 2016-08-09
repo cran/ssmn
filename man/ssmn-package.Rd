@@ -13,7 +13,7 @@ random number generator, likelihood function, direct and EM algorithm for Maximu
 Package: \tab ssmn\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2016-04-01\cr
+Date: \tab 2016-08-08\cr
 License: \tab GPL (>=2)\cr
 }
 }

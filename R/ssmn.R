@@ -86,7 +86,11 @@ ssmn <- function(y, X, family="sn", method="EM", error =  1e-6, maxit=1000, show
     cat("Processing time =",out$time,units(out$time))
     cat('\n\n')
   }
-
+ if(show.envelope == TRUE)
+ {
+  theta <- c(out$beta,out$sigma2,out$lambda)
+  envel(y,X,theta,family,alpha=0.05)
+ }
   return(out)
 }
 
@@ -109,12 +113,3 @@ ssmn <- function(y, X, family="sn", method="EM", error =  1e-6, maxit=1000, show
 #X = cbind(rep(1,n0))
 #objetos = ssmn(y, X, family="sep", method="EM", error =  1e-6, maxit=5000)
 #objetos = ssmn(y, X, family="sep", method="MLE", error =  1e-6, maxit=1000)
-
-
-
-
-
-
-
-
-

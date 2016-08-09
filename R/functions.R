@@ -1576,7 +1576,7 @@ envel <- function(y,X,theta,family="sn",alpha=0.05){
   d2=as.numeric((y-mu)^2/theta[p+1])
   d2s=sort(d2)
   d2s=t(d2s)
-  xq2 <- qchisq(ppoints(n), p)
+  xq2 <- qchisq(ppoints(n), 1)
   replic=200
   Xsim<-matrix(0,replic,n)
   if (family=="sn"){
